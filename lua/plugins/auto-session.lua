@@ -1,9 +1,9 @@
 return {
 	{
 		"rmagatti/auto-session",
+    lazy = false,
 		config = function()
 			require("auto-session").setup({
-				log_level = "error",
 				auto_session_suppress_dirs = { "~/" },
 				auto_clean_after_session_restore = false,
 				auto_session_enabled = true,
