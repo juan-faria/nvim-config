@@ -14,6 +14,7 @@ return {
 					extra_args = { "--line-length", "79" },
 				}),
 				null_ls.builtins.formatting.isort,
+				null_ls.builtins.formatting.sqlfluff,
 			},
 		})
 
